@@ -1,0 +1,92 @@
+/* line 1, D:/Programming/grunt-project/src/css/_top_menu.scss */
+.home-container {
+  width: 100%;
+  width: 100%;
+  height: 80px; }
+  /* line 5, D:/Programming/grunt-project/src/css/_top_menu.scss */
+  .home-container .logo {
+    float: left;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    margin-left: 5px;
+    margin-top: -5px;
+    background-image: url(http://gloria-project.eu/wp-content/uploads/2012/06/logo-256-transp.png); }
+  /* line 14, D:/Programming/grunt-project/src/css/_top_menu.scss */
+  .home-container .lupa {
+    margin-top: 10px;
+    position: absolute;
+    right: 10px; }
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  /* line 34, D:/Programming/grunt-project/src/css/_top_menu.scss */
+  .navbar-left {
+    position: static;
+    margin: 0;
+    width: 100%; }
+  /* line 39, D:/Programming/grunt-project/src/css/_top_menu.scss */
+  #search-box {
+    display: block; }
+  /* line 42, D:/Programming/grunt-project/src/css/_top_menu.scss */
+  .lupa {
+    display: none; } }
+
+@media only screen and (min-width: 767px) {
+  /* line 48, D:/Programming/grunt-project/src/css/_top_menu.scss */
+  #search-box {
+    display: none; }
+  /* line 51, D:/Programming/grunt-project/src/css/_top_menu.scss */
+  .lupa {
+    display: block; } }
+
+/* line 1, D:/Programming/grunt-project/src/css/_content.scss */
+.accordion-heading {
+  margin-top: 2px; }
+  /* line 4, D:/Programming/grunt-project/src/css/_content.scss */
+  .accordion-heading button {
+    width: 100%; }
+
+/* line 2, D:/Programming/grunt-project/src/css/_footer.scss */
+footer-page .content-footer {
+  padding-top: 20px; }
+
+/* line 1, D:/Programming/grunt-project/src/css/_progress.scss */
+#progress-bar-container {
+  padding-top: 10%; }
+  /* line 3, D:/Programming/grunt-project/src/css/_progress.scss */
+  #progress-bar-container svg {
+    width: 100%; }
+
+/* line 1, D:/Programming/grunt-project/src/css/_lang_selection.scss */
+.lang-selection {
+  width: 100px;
+  float: right; }
+  /* line 4, D:/Programming/grunt-project/src/css/_lang_selection.scss */
+  .lang-selection .dropdown-menu {
+    width: 100%;
+    margin-left: 0; }
+
+/* line 1, D:/Programming/grunt-project/src/css/_calendar.scss */
+#calendar {
+  float: left; }
+
+/* line 2, D:/Programming/grunt-project/src/css/_panel_heading.scss */
+.my-panel-heading table {
+  font-size: 100%; }
+
+/* line 8, D:/Programming/grunt-project/src/css/style.scss */
+body {
+  margin: 0;
+  padding: 0; }
+  /* line 11, D:/Programming/grunt-project/src/css/style.scss */
+  body .navbar-default {
+    z-index: 100; }
+
+/*# sourceMappingURL=style.css.map */

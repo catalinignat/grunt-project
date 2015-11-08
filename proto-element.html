@@ -1,0 +1,16 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/paper-input/paper-input.html">
+
+<dom-module id="user-view">
+    <template>
+        First: <span>{{firstName}}</span>
+        <br> Last: <span>{{lastName}}</span>
+        <paper-input on-keypress="keyPressHandler" id="{{id}}" label="{{label}}" inputValue="{{value}}"></paper-input>
+
+        <!-- <user-view first-name="Samuel" last-name="Adams"></user-view>-->
+    </template>
+    <script>
+
+    </script>
+
+</dom-module>
